@@ -1,0 +1,17 @@
+
+{
+  "name": "cluster",
+  "description": "extensible multi-core server manager",
+  "keywords": ["server", "spark", "fugue", "tcp", "workers"],
+  "version": "0.7.7",
+  "homepage": "http://github.com/NorthernL1ghts",
+  "repository": "git://github.com/NorthernL1ghts/cluster.git",
+  "author": "Cameron Smith <www.github.com/NorthernL1ghts> ",
+  "main": "index",
+  "dependencies": {
+      "log": ">= 1.2.0"
+    , "mkdirp": ">= 0.0.1"
+  },
+  "devDependencies": { "should": "0.2.x" },
+  "engines": { "node": "*" }
+}
